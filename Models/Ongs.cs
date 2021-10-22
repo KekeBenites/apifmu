@@ -10,10 +10,8 @@ namespace apifmu.Models
         [Key]
 
         public int Id { get; set; }
-
         public int Cnpj { get; set; }
         public string Nome { get; set; }
-
         public string Endereco { get; set; }
         public decimal Lat { get; set; }
         public decimal Long { get; set; }

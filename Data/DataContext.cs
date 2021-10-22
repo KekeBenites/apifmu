@@ -32,6 +32,7 @@ namespace apifmu.Data
         public DbSet<Usuario> usuario { get; set; }
         public DbSet<UsuarioDados> usuariodados { get; set; }
         public DbSet<Forum> forum { get; set; }
+        public DbSet<Adoption> adoption { get; set; }
         public DbSet<ForumResposta> forumresposta { get; set; }
 
     }
